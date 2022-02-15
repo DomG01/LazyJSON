@@ -32,7 +32,7 @@ const [id] = React.useState("");
     }
     `);
 
-    fetch('http://81.103.250.46:3000/data/', {
+    fetch('http://localhost:3000/data/', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
